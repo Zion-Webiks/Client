@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #fff; /* White text */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3c763d; /* Dark green color */
+}
+
+/* Mission Form Styles */
+form {
+  background-color: #4b8c57; /* Dark green */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #d9534f; /* Red border on focus */
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  background-color: #d9534f; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Mission List Styles */
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+}
+.red-background
+{
+  background-color: #950000; /* Light blue */
+}
+.yellow-background
+{
+  background-color: #c07d00; /* Light blue */
+}
+.green-background
+{
+  background-color: #009314; /* Light blue */
+}
+.buttons-mission-div
+{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-mission-div button
+{
+    padding: 10px 15px;
+  font-size: 22px;
+}
+li {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between; /* Space between text and button */
+  align-items: center;
+}
+
+.delete-button {
+  background-color: #d9534f; /* Red button */
+  padding: 5px 10px;
+}
+.progress-button
+{
+  background-color: #50e140; /* Red button */
+  padding: 5px 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  input, select, textarea {
+    font-size: 14px; /* Smaller text on mobile */
+  }
+
+  button {
+    width: 100%; /* Full-width buttons */
+  }
+}
